@@ -37,15 +37,11 @@ class MainActivity : AppCompatActivity() {
                 textViewBestMeal.text ="Please enter a time of day!"
               //  b = false
             }
-
-           // if (userInput.isEmpty()) {
-             //   textViewBestMeal.text = "Please enter a time of day!"
-            //   return
-           // }
+            else
 
             // Determine meal suggestion using when
 
-            val suggestedMeal = when (userInput) {
+            {val suggestedMeal = when (userInput) {
                 "morning" -> "Breakfast: Pancakes with bacon and eggs"
                 "mid-morning" -> "Light snack: Fruit salad"
                 "afternoon" -> "Lunch: Chicken mayo wraps"
@@ -64,5 +60,4 @@ class MainActivity : AppCompatActivity() {
 
             }
         }
-    }
-}
+    }}}

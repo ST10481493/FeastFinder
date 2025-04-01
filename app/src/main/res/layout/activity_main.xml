@@ -10,6 +10,16 @@
     android:gravity="center"
 
     tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FEAST FINDER"
+        android:textStyle="bold"
+        android:textSize="50sp"
+        android:textColor="@color/black"
+        android:paddingBottom="5dp"/>
+
+
 
     <TextView
         android:layout_width="wrap_content"
@@ -18,7 +28,7 @@
         android:textStyle="bold"
         android:textSize="40sp"
         android:textColor="#FFFFFFFF"
-        android:paddingBottom="80dp"
+        android:paddingBottom="2dp"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
