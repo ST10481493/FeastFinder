@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@drawable/meals"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:gravity="center"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter The Time of Day"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:textColor="#FFFFFFFF"
+        android:paddingBottom="80dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/TimeOfDay"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:padding="15dp"
+        android:ems="10"
+        android:hint="e.g.Morning, Mid-Morning, Afternoon or Dinner"
+        android:inputType="text"
+        android:background="#FFFFFFFF"
+        android:text=""
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/suggestBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Suggest Meal"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The best meal would be:"
+        android:textColor="#FFFFFFFF"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+
+        android:paddingTop="15dp"/>
+
+    <TextView
+        android:id="@+id/textViewbestMeal"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:textSize="22sp"
+        android:textColor="#FF000000"
+        android:background="#FFFFFFFF"
+        android:text=""
+        android:gravity="center"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/clearBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RESET"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+       android:backgroundTint="@color/black"
+        />
+
+</LinearLayout>
