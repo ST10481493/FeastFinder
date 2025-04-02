@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
 
             // Check if input is empty
             if (userInput.isEmpty()){
-                textViewBestMeal.text ="enter a time of day!"
+                textViewBestMeal.text ="You haven't enter a time of day buddy!"
 
             }
             else
