@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var textViewBestMeal: TextView
     private lateinit var clearBtn : Button
     private lateinit var suggestBtn : Button
-
+    private lateinit var exitBtn : Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -21,21 +21,26 @@ class MainActivity : AppCompatActivity() {
         suggestBtn = findViewById(R.id.suggestBtn)
         clearBtn = findViewById(R.id.clearBtn)
         textViewBestMeal = findViewById(R.id.textViewbestMeal)
+        exitBtn = findViewById(R.id.exitBtn)
 
+        // Reset button click listener
         clearBtn.setOnClickListener {
             editTextTimeOfDay.text.clear()
             textViewBestMeal.text = ""
         }
-
+        // Exit button click listener
+        exitBtn.setOnClickListener {
+            finishAffinity()
+        }
         // Suggest button click listener
         suggestBtn.setOnClickListener {
-           //var b = true
+
             val userInput = editTextTimeOfDay.text.toString().trim().lowercase()
 
             // Check if input is empty
             if (userInput.isEmpty()){
-                textViewBestMeal.text ="Please enter a time of day!"
-              //  b = false
+                textViewBestMeal.text ="enter a time of day!"
+
             }
             else
 
