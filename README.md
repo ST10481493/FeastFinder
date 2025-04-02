@@ -50,8 +50,10 @@ The main goal of the Feast Finder app is to help users when they don't know what
 ### Key Features: 
 -Meal suggestions: Users enter a time of day, and the app provides a recommended meal. 
  
--Error handling: Displays a warning if the input is empty or incorrect. 
+-Error handling: Displays a warning if the input is empty or incorrect.
+
 ![Screenshot 2025-04-01 211343](https://github.com/user-attachments/assets/af85ebc0-ae51-4871-be4e-028a1a9bfd7d)
+
 ![Screenshot 2025-04-02 111821](https://github.com/user-attachments/assets/9ed6af68-74fa-4ad1-ac64-285b3033641b)
 
  
