@@ -17,8 +17,8 @@ Start with a header section that includes the following basic details:
 - **Subject**: IMAD 
  
 ## Links 
-- **GitHub Repository**: [Repository URL] 
-- **YouTube Video**: [YouTube Video Link] 
+- **GitHub Repository**: [https://github.com/ST10481493/FeastFinder/tree/main] 
+- **YouTube Video**: [https://youtu.be/VojF6A9wieo] 
   
 
 Project Overview 
